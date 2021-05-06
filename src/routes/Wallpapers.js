@@ -11,6 +11,7 @@ constructor(props){
 }
 
 componentDidMount(){
+    document.title = "Wallpapers - Devart";
     const headers = new Headers();
     fetch('https://wrswider.me/devartscr/getWallpapers.php',
     {
@@ -22,7 +23,6 @@ componentDidMount(){
 render(){
     return(
         <div className='subRoot'>
-            <AboutMe/>
             <div className='body downloads'>
                 {Object.keys(this.state['wallpapers']).map((wall,i)=>
                     <Item key={i} img={'https://wrswider.me/devartscr/wallpapers/'+this.state['wallpapers'][wall]} title={this.state['wallpapers'][wall]}/>)}

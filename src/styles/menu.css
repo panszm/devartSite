@@ -5,7 +5,7 @@
     margin-bottom: 5em;
     margin-left: 2em;
     margin-right: 2em;
-    margin-top: 5em;
+    margin-top: 3em;
     max-width: 70em; 
     width: fit-content;
     justify-content: space-evenly;
@@ -13,7 +13,6 @@
 
 .itemBox{
     padding: 2em;
-    margin-top: 1em;
     width:15em;
     height: fit-content;
     background-color: rgba(255,255,255,0.3);

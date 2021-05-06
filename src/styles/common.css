@@ -40,8 +40,30 @@ body{
 }
 
 .body{
-    width: 70em;
+    width: 46em;
     margin-left:auto;
     margin-right:auto;
     /* background-color: rgba(255,255,255,0.3); */
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+    font-size: 2em;
+}
+
+#navbar *{
+    padding: 0.7em 1em;
+    margin: 0;
+    opacity: 1;
+}
+#navbar *:hover{
+    color:#EF5366;
+    background-color: white;
 }

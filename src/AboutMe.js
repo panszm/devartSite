@@ -7,10 +7,8 @@ function AboutMe(){
             <img className='avatar' src={'https://wrswider.me/devartscr/resources/avatar.jpg'} onClick={(e)=>{window.location.href='/'}} alt='Avatar' />
             <div className='aboutDescription'>
                 <h2>{`devart`}</h2>
-                {`Hey!👋 Welcome to my little kingdom of cute drawings and magic!🥰✨`}<br/><br/>
-                {`👇My social media pages👇`}
+                {`Hey!👋 Welcome to my little kingdom of cute drawings and magic!🥰✨`}
             </div>
-            <Socials/>
         </div>
     )
 }
@@ -25,4 +23,4 @@ function Socials(){
 
 }
 
-export {Socials, AboutMe};
+export {AboutMe};
