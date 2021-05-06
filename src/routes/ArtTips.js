@@ -40,7 +40,7 @@ class ArtTips extends Component{
                 </div>
                 }
                 {this.state['previewing']? 
-                    <div className="preview" onClick={this.hidePreview} style={{position:'fixed', width:'100%',height:'100%', overflow:'auto',cursor:'zoom-out'}}>
+                    <div className="preview" onClick={this.hidePreview} style={{position:'static', width:'100%',height:'100%', cursor:'zoom-out'}}>
                     <img className="previewed" src={this.state['src']} alt={this.state['src']} style={{display:'block',maxWidth:'85%',marginLeft:'auto',marginRight:'auto', marginBottom:'2.5em',marginTop:'2.5em',padding:'1em'}}/>
                 </div> 
                 : null}
