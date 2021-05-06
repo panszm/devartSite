@@ -13,14 +13,14 @@ function AboutMe(){
     )
 }
 
-function Socials(){
-    return(
-        <div className="socialMedia">
-            <a href="https://www.facebook.com/developing.artist" className="fa fa-facebook">{""}</a>
-            <a href="https://www.instagram.com/__devart/" className="fa fa-instagram">{""}</a>
-        </div>
-    );
+// function Socials(){
+//     return(
+//         <div className="socialMedia">
+//             <a href="https://www.facebook.com/developing.artist" className="fa fa-facebook">{""}</a>
+//             <a href="https://www.instagram.com/__devart/" className="fa fa-instagram">{""}</a>
+//         </div>
+//     );
 
-}
+// }
 
 export {AboutMe};

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {AboutMe} from '../AboutMe'
 import Item from './wallpapers/Item'
 import '../styles/menu2.css'
 

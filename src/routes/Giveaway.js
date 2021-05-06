@@ -25,7 +25,7 @@ class Giveaway extends Component{
             <div className='subRoot'>
                 <div className='body'>
                     <div className='itemBox'>
-                        <img className='itemIcon' src='https://wrswider.me/devartscr/giveaway/giveaway_comingsoon.png' />
+                        <img className='itemIcon' src='https://wrswider.me/devartscr/giveaway/giveaway_comingsoon.png' alt='giveaway coming soon!'/>
                     </div>
                 </div>
             </div>

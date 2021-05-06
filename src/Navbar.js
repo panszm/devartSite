@@ -9,7 +9,7 @@ function Navbar(){
             <li onClick={(e)=>{window.location.href='/wallpapers/'}}>Wallpapers</li>
             <li onClick={(e)=>{window.location.href='/tips/'}}>Art Tips</li>
 
-            <a className='fa fa-instagram' href="https://www.instagram.com/__devart/"></a>
+            <a className='fa fa-instagram' href="https://www.instagram.com/__devart/">{""}</a>
             {/* <a class='fa fa-facebook' href="https://www.facebook.com/developing.artist"></a> */}
         </ul>
     )
