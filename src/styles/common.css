@@ -1,0 +1,47 @@
+@font-face{
+    font-family: 'Chewy';
+    src: url('../resources/Chewy.ttf');
+}
+
+* {
+    font-family: Chewy, serif;
+    color: white;
+    letter-spacing: 0.05em;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.subRoot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 46em) {
+    html, body{
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 46em) {
+.subRoot{
+    flex-wrap:wrap;
+    }
+}
+
+
+body{
+    background: linear-gradient(to top left, #EF5366, rgba(255, 153, 150, 0), #EF4F97), linear-gradient(to top right, #EF5366, rgba(255, 153, 150, 0), #F89A91) rgba(255, 153, 150, 1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body{
+    width: 70em;
+    margin-left:auto;
+    margin-right:auto;
+    /* background-color: rgba(255,255,255,0.3); */
+}

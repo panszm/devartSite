@@ -1,0 +1,67 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.aboutRoot{
+    width: fit-content; max-width: 20em; min-width: 20em;
+    height: fit-content;
+    background-color: rgba(255,255,255,0.3);
+    position: sticky; position: -webkit-sticky;top: 5em;
+    padding: 1em 1em;
+    margin: 5em;
+    margin-bottom:0;
+    border-radius: 3%;
+}
+
+@media only screen and (max-width: 46em) {
+    .aboutRoot{
+        position: static;
+    }
+  }
+
+.aboutRoot h2{
+    margin: 0.3em;
+}
+
+.avatar{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.aboutDescription{
+    text-align: center;
+    margin: 0 1.5em;
+}
+
+.socialMedia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.fa {
+    width: 1em;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 5px -5px 0px -5px;
+    /* border-radius: 50%; */
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    /* background: #3B5998; */
+    color: white;
+}
+.fa-instagram {
+    /* background: linear-gradient(to top right,#405DE6,#5851DB,#833AB4,#C13584, #E1306C, #FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80) rgba(255, 153, 150, 1); */
+    color: white;
+ }
+
+ 

@@ -1,0 +1,75 @@
+.body{
+    display:flex;
+    flex-wrap: wrap;
+    gap:3em;
+    margin-bottom: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 5em;
+    max-width: 70em; 
+    width: fit-content;
+    justify-content: space-evenly;
+}
+
+.itemBox{
+    padding: 2em;
+    margin-top: 1em;
+    width:15em;
+    height: fit-content;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    border-radius: 5%;
+}
+
+.itemPreview{
+    padding: 2em;
+    margin-top: 1em;
+    width:15em;
+    height: fit-content;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    border-radius: 5%;
+    cursor:zoom-in;
+}
+
+@keyframes previewIn{
+    from {width: 0%;opacity: 0%;}
+    to {width: 100%;opacity: 100%;}
+}
+
+.preview{
+    animation-name: previewIn;
+    animation-duration: 0.05s;
+}
+
+i{
+    width:19em;
+}
+
+@media only screen and (max-width: 103em) {
+    .body{
+        display:flex;
+        flex-wrap: wrap;
+    }  
+}
+
+
+.itemPreview .itemTitle{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-lines: 1;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.itemTitle{
+    font-size: 2em;
+}
+
+.itemIcon{
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 3%;
+}

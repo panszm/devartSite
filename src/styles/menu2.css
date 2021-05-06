@@ -1,0 +1,14 @@
+.downloads .itemTitle{
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-lines: 1;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.downloads .itemBox{
+    background: rgba(255,255,255,0.3);
+    border-radius: 3%;
+}
